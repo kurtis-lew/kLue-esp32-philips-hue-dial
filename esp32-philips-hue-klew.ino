@@ -19,7 +19,6 @@
 #define USE_SERIAL Serial
 
 int lastActivityTime = 0;
-const int sleepInterval = 1200000;
 bool powerToggleReady = false;
 bool sceneChangeReady = false;
 int sceneIndex = 0;
