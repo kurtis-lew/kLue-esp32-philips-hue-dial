@@ -10,7 +10,8 @@ class HueGroup {
     HueGroup(HueClient& c, int group);
     void toggle();
     void scrollBrightnessStart();
-    void scrollBrightnessTick();
+    void increaseBrightness();
+    void decreaseBrightness();
     void on();
     void off();
     void setScene(char* scene);
