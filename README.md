@@ -1,24 +1,6 @@
-# ESP32 Philips Hue DIY Light Switch
+# ESP32 Philips Hue Control Dial
 
-A one button DIY Philips Hue Remote for an ESP32, tested with DFRobot FireBeetle ESP32.
+A variation of mnkii's esp32-philips-hue-button for controlling my Philips Hue with a custom dial using an HDD as a rotary encoder and two Cherry MX pushbuttons.
 
-Works over Wifi by calling the Hue API and has the following functionality:
-
- * Single press toggles the lights on / off
- * Double press cycles through scenes
- * Long press dims and then brightens
-
-The branch 'with-sonos' has some Sonos integration for a short disco mode, as seen in [this video](https://youtu.be/HGSPCLT5efM)
-
-## Circuit
-
-Connect an LED with resistor to 26 and ground
-
-Connect a push button to 27 and ground
-
-## Setup
-
-Modify Config.h for your Wifi and Hue setup.
-
-It is worth reading the [Hue Getting Started Guide](https://developers.meethue.com/develop/get-started-2/) before trying
-to get this script up and running
+Original Code can be found here:
+https://github.com/mnkii/esp32-philips-hue-button
