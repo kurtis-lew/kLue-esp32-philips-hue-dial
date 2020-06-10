@@ -13,8 +13,8 @@
 #define HUE_API_USERNAME "" // See https://developers.meethue.com/develop/get-started-2/
 #define HUE_GROUP 1 // Numeric id of the group of lights you want to control, call hue api /api/{ username }/groups for this
 char scenes[4][16] = { // 15 digit ids of the scenes you want the switch to iterate through. Call hue api /api/{ username }/scenes for these
-    "RdVm6AB7NxxVQxS", // Choose only scenes available for your chosen group
-    "iNssx30s4a2XSfQ",
-    "YBDQ1YS8vuCJiv7",
-    "2b9nuws5HJdgKD8"
+    "", // Choose only scenes available for your chosen group
+    "",
+    "",
+    ""
 };
